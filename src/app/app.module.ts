@@ -9,6 +9,9 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './page/home/home.component';
 import { HeaderComponent } from './page/header/header.component';
 import { FooterComponent } from './page/footer/footer.component';
+import { SongComponent } from './song/song.component';
+import { ListSongComponent } from './song/list-song/list-song.component';
+import { UpdateSongComponent } from './song/update-song/update-song.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { FooterComponent } from './page/footer/footer.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
+    SongComponent,
+    ListSongComponent,
+    UpdateSongComponent,
   ],
   imports: [
     BrowserModule,
